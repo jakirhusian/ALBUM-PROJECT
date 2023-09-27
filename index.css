@@ -1,0 +1,28 @@
+
+*{
+    background-color: rgb(10, 10, 10);
+}
+ .cont img{
+    /* display: flex;  */
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10%;
+    cursor: pointer;
+ }
+  .cont img:hover{
+    transform: scale(1.25)translate(-5px);
+  }
+
+  .para {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+   .para{
+    background-color: rgb(21, 51, 222);
+   }
+ 
+  
